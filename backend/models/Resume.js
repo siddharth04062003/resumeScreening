@@ -9,10 +9,6 @@ const resumeSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
-    file: {
-        type: any,
-        required: false,
-    },
     uploadDate: {
         type: Date,
         default: Date.now,
